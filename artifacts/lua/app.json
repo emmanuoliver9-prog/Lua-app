@@ -19,10 +19,12 @@
     },
     "android": {
       "package": "com.lua.couples",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#0F0A1A"
-      }
+      },
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/images/icon.png"
@@ -41,6 +43,11 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID"
+      }
     }
   }
 }
