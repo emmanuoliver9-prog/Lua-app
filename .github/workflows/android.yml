@@ -1,3 +1,6 @@
+defaults:
+  run:
+    working-directory: lua
 name: Android APK
 
 on:
