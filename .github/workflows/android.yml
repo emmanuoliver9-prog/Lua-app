@@ -1,6 +1,6 @@
 defaults:
   run:
-    working-directory: lua
+    working-directory: artifacts/lua
 name: Android APK
 
 on:
