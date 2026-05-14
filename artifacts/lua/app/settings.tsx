@@ -6,7 +6,6 @@ import {
   Alert,
   ScrollView,
   StyleSheet,
-  Switch,
   Text,
   TextInput,
   TouchableOpacity,
@@ -29,10 +28,6 @@ export default function SettingsScreen() {
 
   const [cycleLength, setCycleLength] = useState(String(cycleData.cycleLength));
   const [periodLength, setPeriodLength] = useState(String(cycleData.periodLength));
-  const [notifMood, setNotifMood] = useState(true);
-  const [notifPms, setNotifPms] = useState(true);
-  const [notifPeriod, setNotifPeriod] = useState(true);
-  const [notifPartner, setNotifPartner] = useState(true);
 
   const handleSaveCycle = async () => {
     const cl = parseInt(cycleLength, 10);
@@ -106,31 +101,20 @@ export default function SettingsScreen() {
           <Animated.View entering={FadeInDown.delay(150)}>
             <Text style={[styles.sectionTitle, { color: c.foreground }]}>Notificações</Text>
             <GradientCard colors={[c.card, c.surface as string]} style={{ padding: 0, overflow: "hidden" }}>
-              {[
-                { label: "Humor diário", sub: "Lembrete para registrar seu humor", value: notifMood, onToggle: () => { haptics.light(); setNotifMood(v => !v); } },
-                { label: "Alerta de TPM", sub: "Aviso 5 dias antes do período", value: notifPms, onToggle: () => { haptics.light(); setNotifPms(v => !v); } },
-                { label: "Próxima menstruação", sub: "Countdown antes do período", value: notifPeriod, onToggle: () => { haptics.light(); setNotifPeriod(v => !v); } },
-                { label: "Atividade do parceiro", sub: "Quando o parceiro compartilhar humor", value: notifPartner, onToggle: () => { haptics.light(); setNotifPartner(v => !v); } },
-              ].map((item, i, arr) => (
-                <View
-                  key={item.label}
-                  style={[
-                    styles.switchRow,
-                    i < arr.length - 1 && { borderBottomWidth: 1, borderBottomColor: c.border },
-                  ]}
-                >
-                  <View style={{ flex: 1 }}>
-                    <Text style={[styles.switchLabel, { color: c.foreground }]}>{item.label}</Text>
-                    <Text style={[styles.switchSub, { color: c.mutedForeground }]}>{item.sub}</Text>
-                  </View>
-                  <Switch
-                    value={item.value}
-                    onValueChange={item.onToggle}
-                    trackColor={{ false: c.muted, true: c.primary + "80" }}
-                    thumbColor={item.value ? c.primary : c.mutedForeground}
-                  />
+              <TouchableOpacity
+                onPress={() => { haptics.light(); router.push("/notifications"); }}
+                activeOpacity={0.7}
+                style={styles.menuItem}
+              >
+                <View style={[styles.menuIcon, { backgroundColor: "#F9A8D420" }]}>
+                  <Feather name="bell" size={18} color="#F9A8D4" />
                 </View>
-              ))}
+                <View style={{ flex: 1 }}>
+                  <Text style={[styles.menuLabel, { color: c.foreground }]}>Gerenciar alertas</Text>
+                  <Text style={[styles.menuSub, { color: c.mutedForeground }]}>Período, TPM, ovulação, humor</Text>
+                </View>
+                <Feather name="chevron-right" size={16} color={c.mutedForeground} />
+              </TouchableOpacity>
             </GradientCard>
           </Animated.View>
 
@@ -196,10 +180,8 @@ const styles = StyleSheet.create({
   numUnit: { fontSize: 13 },
   saveBtn: { paddingVertical: 14, borderRadius: 14, alignItems: "center" },
   saveBtnText: { color: "#fff", fontSize: 15, fontWeight: "700" },
-  switchRow: { flexDirection: "row", alignItems: "center", padding: 16, gap: 12 },
-  switchLabel: { fontSize: 15, fontWeight: "500" },
-  switchSub: { fontSize: 12, marginTop: 2 },
   menuItem: { flexDirection: "row", alignItems: "center", gap: 14, padding: 16 },
+  menuSub: { fontSize: 12, marginTop: 2 },
   menuIcon: { width: 36, height: 36, borderRadius: 18, alignItems: "center", justifyContent: "center" },
   menuLabel: { flex: 1, fontSize: 15, fontWeight: "500" },
 });

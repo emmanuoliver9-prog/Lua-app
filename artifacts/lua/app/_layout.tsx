@@ -17,12 +17,15 @@ import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { AppProvider } from "@/context/AppContext";
 import { AuthProvider } from "@/context/AuthContext";
 import { CycleProvider } from "@/context/CycleContext";
+import { NotificationProvider } from "@/context/NotificationContext";
+import { useNotificationSetup } from "@/hooks/useNotifications";
 
 SplashScreen.preventAutoHideAsync();
 
 const queryClient = new QueryClient();
 
 function RootLayoutNav() {
+  useNotificationSetup();
   return (
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
@@ -36,6 +39,7 @@ function RootLayoutNav() {
       <Stack.Screen name="special-dates" options={{ animation: "slide_from_right" }} />
       <Stack.Screen name="premium" options={{ animation: "slide_from_bottom", presentation: "modal" }} />
       <Stack.Screen name="settings" options={{ animation: "slide_from_right" }} />
+      <Stack.Screen name="notifications" options={{ animation: "slide_from_right" }} />
     </Stack>
   );
 }
@@ -65,7 +69,9 @@ export default function RootLayout() {
               <AppProvider>
                 <AuthProvider>
                   <CycleProvider>
-                    <RootLayoutNav />
+                    <NotificationProvider>
+                      <RootLayoutNav />
+                    </NotificationProvider>
                   </CycleProvider>
                 </AuthProvider>
               </AppProvider>

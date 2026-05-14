@@ -24,7 +24,7 @@ import { LEVELS } from "@/constants/theme";
 
 const MENU_ITEMS = [
   { icon: "settings", label: "Configurações", route: "/settings", color: "#A78BFA" },
-  { icon: "bell", label: "Notificações", route: "/settings", color: "#F9A8D4" },
+  { icon: "bell", label: "Notificações", route: "/notifications", color: "#F9A8D4" },
   { icon: "calendar", label: "Configurar ciclo", route: "/settings", color: "#FB923C" },
   { icon: "image", label: "Memórias", route: "/memories", color: "#FBBF24" },
   { icon: "gift", label: "Datas especiais", route: "/special-dates", color: "#F472B6" },
