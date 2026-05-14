@@ -1,0 +1,605 @@
+Crie um aplicativo mobile premium de nível comercial chamado “Lua”, focado em relacionamento de casal, inteligência emocional e acompanhamento completo do ciclo menstrual feminino.
+
+O aplicativo deve parecer um produto real de startup de alto nível, extremamente refinado, moderno, emocional e viciante visualmente, inspirado em:
+
+- Flo
+- Clue
+- Pinterest
+- Apple Health
+- Notion
+- Airbnb
+- Calm
+
+O app deve ser desenvolvido em:
+
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+
+E já vir COMPLETAMENTE pronto para:
+
+- Android
+- iOS
+- exportação APK
+- publicação futura
+- build automático via GitHub Actions
+- build local Gradle
+- produção real
+
+━━━━━━━━━━━━━━━━━━━
+OBJETIVO PRINCIPAL
+━━━━━━━━━━━━━━━━━━━
+
+O “Lua” deve ajudar casais a:
+
+- entender melhor as fases hormonais;
+- melhorar comunicação;
+- evitar conflitos;
+- aumentar conexão emocional;
+- criar hábitos saudáveis no relacionamento;
+- acompanhar humor e emoções;
+- fortalecer carinho, empatia e romantismo.
+
+O app deve misturar:
+
+- saúde feminina;
+- IA emocional;
+- relacionamento;
+- lifestyle;
+- gamificação;
+- bem-estar.
+
+━━━━━━━━━━━━━━━━━━━
+VISUAL / EXPERIÊNCIA
+━━━━━━━━━━━━━━━━━━━
+
+O design deve ser MUITO premium.
+
+Criar:
+
+- gradientes suaves;
+- glassmorphism;
+- animações fluidas;
+- blur;
+- partículas leves;
+- skeleton loading;
+- microinterações;
+- cards vivos;
+- sombras suaves;
+- dark mode elegante;
+- transições cinematográficas;
+- loading screens lindas;
+- UI estilo app milionário.
+
+PALETA:
+
+- rosa pastel;
+- lilás;
+- branco;
+- roxo suave;
+- dourado leve;
+- dark mode sofisticado.
+
+Adicionar:
+
+- feedback háptico;
+- animações Reanimated;
+- ícones modernos;
+- tipografia elegante;
+- onboarding cinematográfico.
+
+━━━━━━━━━━━━━━━━━━━
+STACK OBRIGATÓRIA
+━━━━━━━━━━━━━━━━━━━
+
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- Firebase
+- Firestore
+- Firebase Auth
+- Firebase Storage
+- AsyncStorage
+- Context API
+- Expo Notifications
+- Expo Location
+- React Native Reanimated
+- React Native Gesture Handler
+- React Native SVG
+- Victory Native / Recharts
+- OpenStreetMap API
+- Overpass API
+- Google Maps Linking
+
+━━━━━━━━━━━━━━━━━━━
+ANDROID / BUILD
+━━━━━━━━━━━━━━━━━━━
+
+O projeto deve já sair com:
+
+- pasta android pronta;
+- gradlew funcional;
+- package name válido;
+- ícone;
+- splash screen;
+- permissões Android;
+- APK exportável;
+- workflow GitHub Actions funcional.
+
+CRIAR:
+.github/workflows/android.yml
+
+O workflow deve:
+
+- instalar Java 17;
+- instalar dependências;
+- usar cache;
+- gerar APK Release;
+- salvar artifact automaticamente;
+- funcionar sem Expo pago.
+
+━━━━━━━━━━━━━━━━━━━
+AUTENTICAÇÃO COMPLETA
+━━━━━━━━━━━━━━━━━━━
+
+Criar:
+
+- login;
+- cadastro;
+- login Google;
+- login Apple;
+- recuperação de senha;
+- upload de foto;
+- editar perfil;
+- logout;
+- exclusão de conta;
+- persistência de sessão;
+- onboarding inteligente;
+- proteção de rotas.
+
+━━━━━━━━━━━━━━━━━━━
+SISTEMA DE CASAL
+━━━━━━━━━━━━━━━━━━━
+
+Adicionar:
+
+- código de convite;
+- conectar parceiros;
+- sincronização em tempo real;
+- compartilhar humor;
+- compartilhar calendário;
+- status online;
+- mini chat emocional;
+- sistema de carinho diário;
+- contador de dias juntos;
+- timeline do relacionamento.
+
+━━━━━━━━━━━━━━━━━━━
+CALENDÁRIO MENSTRUAL AVANÇADO
+━━━━━━━━━━━━━━━━━━━
+
+Permitir registrar:
+
+- início/fim;
+- fluxo;
+- intensidade;
+- cólicas;
+- sintomas;
+- libido;
+- energia;
+- humor;
+- sono;
+- acne;
+- apetite;
+- ansiedade;
+- estresse;
+- observações.
+
+Criar previsão inteligente:
+
+- próxima menstruação;
+- TPM;
+- ovulação;
+- fertilidade;
+- fase atual;
+- porcentagem do ciclo;
+- adaptação automática pelo histórico;
+- IA de previsibilidade.
+
+Adicionar:
+
+- calendário premium;
+- heatmap hormonal;
+- cores por fase;
+- animações suaves;
+- insights automáticos.
+
+━━━━━━━━━━━━━━━━━━━
+HOME ULTRA PREMIUM
+━━━━━━━━━━━━━━━━━━━
+
+A Home deve parecer um dashboard de app premium.
+
+Mostrar:
+
+- fase atual;
+- humor provável;
+- nível emocional;
+- energia;
+- contador da próxima menstruação;
+- progresso do ciclo;
+- cards dinâmicos;
+- sugestões inteligentes;
+- resumo emocional;
+- atalhos rápidos;
+- mensagens afetivas;
+- próximos eventos;
+- humor do parceiro;
+- status do relacionamento.
+
+Adicionar:
+
+- animações fluidas;
+- scroll parallax;
+- widgets interativos;
+- gráficos rápidos;
+- cards expansíveis.
+
+━━━━━━━━━━━━━━━━━━━
+IA DE RELACIONAMENTO
+━━━━━━━━━━━━━━━━━━━
+
+Criar sistema inteligente extremamente avançado.
+
+A IA deve adaptar:
+
+- mensagens;
+- comportamento;
+- presentes;
+- restaurantes;
+- encontros;
+- filmes;
+- músicas;
+- passeios;
+- linguagem;
+- tom emocional;
+- atitudes recomendadas.
+
+Baseado em:
+
+- fase hormonal;
+- sintomas;
+- personalidade;
+- humor;
+- histórico;
+- clima emocional;
+- tempo juntos;
+- frequência de conflitos.
+
+Exemplos:
+TPM:
+
+- evitar discussões;
+- linguagem delicada;
+- cafés aconchegantes;
+- chocolate;
+- apoio emocional;
+- filmes leves.
+
+Ovulação:
+
+- romantismo;
+- encontros;
+- restaurantes sofisticados;
+- fotos;
+- atividades sociais.
+
+Menstrual:
+
+- descanso;
+- carinho;
+- hidratação;
+- delivery;
+- aconchego.
+
+━━━━━━━━━━━━━━━━━━━
+PERSONALIDADE
+━━━━━━━━━━━━━━━━━━━
+
+Adicionar sistema profundo de personalidade:
+
+- sensível;
+- introvertida;
+- extrovertida;
+- romântica;
+- carinhosa;
+- aventureira;
+- independente;
+- ansiosa;
+- tímida;
+- intensa;
+- calma;
+- gosta de espaço;
+- gosta de atenção;
+- gosta de presentes;
+- gosta de toque físico.
+
+A IA deve mudar totalmente conforme os traços.
+
+━━━━━━━━━━━━━━━━━━━
+NOTIFICAÇÕES INTELIGENTES
+━━━━━━━━━━━━━━━━━━━
+
+Criar:
+
+- notificações emocionais;
+- carinho diário;
+- lembrete de TPM;
+- lembrete de apoio;
+- hidratação;
+- próxima menstruação;
+- humor;
+- mensagens afetivas;
+- lembretes de encontro;
+- sugestões do dia.
+
+Permitir:
+
+- horários personalizados;
+- dias específicos;
+- frequência;
+- categorias individuais;
+- modo silencioso.
+
+━━━━━━━━━━━━━━━━━━━
+HUMOR & SINTONIA
+━━━━━━━━━━━━━━━━━━━
+
+Criar:
+
+- humor diário;
+- percepção do parceiro;
+- comparação emocional;
+- taxa de sintonia;
+- gráfico semanal;
+- gráfico mensal;
+- insights automáticos;
+- histórico;
+- tendências;
+- streak de conexão emocional.
+
+Adicionar:
+
+- sistema de compatibilidade;
+- indicador de atenção emocional;
+- alertas de desconexão.
+
+━━━━━━━━━━━━━━━━━━━
+DATAS ESPECIAIS
+━━━━━━━━━━━━━━━━━━━
+
+Criar:
+
+- aniversários;
+- aniversário do casal;
+- primeiro encontro;
+- viagens;
+- conquistas;
+- metas;
+- datas personalizadas.
+
+Com:
+
+- countdown;
+- timeline;
+- notificações;
+- sugestões de celebração;
+- cápsula do tempo emocional.
+
+━━━━━━━━━━━━━━━━━━━
+SISTEMA DE MEMÓRIAS
+━━━━━━━━━━━━━━━━━━━
+
+Adicionar um sistema estilo rede social privada do casal:
+
+- fotos;
+- textos;
+- momentos especiais;
+- lembranças;
+- favoritos;
+- timeline emocional.
+
+Adicionar:
+
+- “Nesse dia há 1 ano...”;
+- memórias automáticas;
+- álbum do relacionamento.
+
+━━━━━━━━━━━━━━━━━━━
+SISTEMA DE LUGARES INTELIGENTES
+━━━━━━━━━━━━━━━━━━━
+
+Usar localização real.
+
+Raio configurável:
+
+- 1km
+- 3km
+- 5km
+- 10km
+- 15km
+
+Adicionar slider premium animado.
+
+Buscar:
+
+- restaurantes;
+- cafés;
+- cinemas;
+- parques;
+- bares;
+- sorveterias;
+- spas;
+- lugares românticos;
+- atividades indoor/outdoor.
+
+Adicionar:
+
+- favoritos;
+- avaliações mockadas;
+- fotos mockadas;
+- distância em tempo real;
+- botão Google Maps;
+- cache inteligente;
+- shimmer loading;
+- pull to refresh.
+
+As sugestões devem mudar pela fase hormonal.
+
+━━━━━━━━━━━━━━━━━━━
+GAMIFICAÇÃO
+━━━━━━━━━━━━━━━━━━━
+
+Adicionar:
+
+- níveis de relacionamento;
+- XP emocional;
+- conquistas;
+- badges;
+- streak de carinho;
+- desafios semanais;
+- missões românticas;
+- metas do casal.
+
+━━━━━━━━━━━━━━━━━━━
+MODO PREMIUM
+━━━━━━━━━━━━━━━━━━━
+
+Criar estrutura para futura monetização:
+
+- assinatura premium mockada;
+- funcionalidades bloqueadas;
+- tela premium;
+- planos;
+- benefícios.
+
+━━━━━━━━━━━━━━━━━━━
+SEGURANÇA
+━━━━━━━━━━━━━━━━━━━
+
+Adicionar:
+
+- biometria;
+- PIN;
+- proteção de screenshots;
+- criptografia básica local;
+- logout automático opcional.
+
+━━━━━━━━━━━━━━━━━━━
+ESTATÍSTICAS
+━━━━━━━━━━━━━━━━━━━
+
+Mostrar:
+
+- duração média do ciclo;
+- regularidade;
+- sintomas frequentes;
+- humor médio;
+- padrões emocionais;
+- tendências;
+- gráficos animados;
+- insights inteligentes.
+
+━━━━━━━━━━━━━━━━━━━
+TELAS
+━━━━━━━━━━━━━━━━━━━
+
+Criar TODAS:
+
+- Splash
+- Onboarding
+- Login
+- Cadastro
+- Recuperar senha
+- Home
+- Calendário
+- Registrar dia
+- Perfil
+- Configurações
+- Parceiro
+- Lugares
+- Humor
+- Histórico
+- Estatísticas
+- Datas especiais
+- Sugestões
+- Memórias
+- Premium
+- Segurança
+- Notificações
+- Configuração do ciclo
+
+━━━━━━━━━━━━━━━━━━━
+QUALIDADE
+━━━━━━━━━━━━━━━━━━━
+
+IMPORTANTE:
+
+- sem erros;
+- sem dependências quebradas;
+- TypeScript limpo;
+- código organizado;
+- arquitetura profissional;
+- componentes reutilizáveis;
+- comentários úteis;
+- responsivo;
+- performance otimizada;
+- lazy loading;
+- skeleton loading;
+- sem telas vazias;
+- mock data realista;
+- app funcional imediatamente.
+
+━━━━━━━━━━━━━━━━━━━
+ESTRUTURA
+━━━━━━━━━━━━━━━━━━━
+
+Organizar:
+
+- app
+- components
+- hooks
+- services
+- context
+- store
+- assets
+- constants
+- theme
+- animations
+- types
+- utils
+
+━━━━━━━━━━━━━━━━━━━
+NO FINAL
+━━━━━━━━━━━━━━━━━━━
+
+Gerar:
+
+- README profissional;
+- documentação completa;
+- instruções Firebase;
+- instruções APK;
+- instruções GitHub Actions;
+- instruções Play Store;
+- instruções build release;
+- scripts npm;
+- app.json;
+- eas.json;
+- workflow GitHub;
+- configurações Android;
+- dados mockados;
+- seeds.
+
+O projeto deve sair extremamente refinado, bonito, funcional, pronto para produção e parecer um aplicativo real de startup premium.
